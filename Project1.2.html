@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Food Website</title>
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+        }
+
+        header::before{
+            background: url('https://source.unsplash.com/collection/190727/1600x900') no-repeat center center/cover;
+            content: "";
+            position: absolute;
+            top:0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.3;
+        }
+
+        .navigation {
+            font-family: 'Bree Serif', serif;
+            font-size: 20px;
+            display: flex;
+        }
+
+        .navigation a {
+          color: coral;
+            padding: 20px 23px;
+        }
+
+        section {
+            height: 344px;
+            font-family: 'Bree Serif', serif;
+            margin: 3px 230px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 {
+            font-size: 4rem;
+            padding-top: 70px;
+        }
+
+        p {
+            text-align: center;
+        }
+        .types a{
+            color: rgb(12, 240, 12);
+        }
+        .typo a{
+            color: red;
+        }
+
+        /* section::after{
+        content:"this is a content"
+    } */
+    .navbar img{
+        padding-left: 2px;
+        border-radius: 2px;
+    }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar"> 
+            <ul class="navigation">
+                <a href="#">HOME</a>
+                <a href="#">ABOUT</a>  
+                <a href="#">SERVICE</a>
+                <a href="#">CONTACT US</a>
+            </ul>
+        </nav>
+    </header>
+        <section>
+            <h1> <p> WELCOME TO THE BEST FOOD WEBSITE</p></h1>
+            <p>This is probably the best website of food. You can order vegetarian as well aas non-vegetarian. Most importantly your hygiene is our first priority. So we take all safety measures while cooking and serving.</p>
+            <p>Hope you like the food.</p>
+            <ul class="types">
+                <p><a href="#">VEGETARIAN</a></p>
+    
+            </ul>
+            <ul class="typo">
+                <p><a href="#">NON-VEGETARIAN</a></p>
+            </ul>
+
+            
+        </section>
+        
+       
+</body>
+
+</html>
